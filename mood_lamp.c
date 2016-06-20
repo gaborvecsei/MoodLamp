@@ -28,7 +28,7 @@
  * OUT -> PIN 4
  */
 
-int micPin = 2;
+int micPin = 4;
 //This is where we record our Sound Measurement
 int micVal = HIGH; 
 boolean bAlarm = false;
