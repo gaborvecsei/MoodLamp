@@ -1,10 +1,11 @@
 /****************************************
  * Vecsei Gábor
+ *
  * vecseigabor.x@gmail.com
  * https://gaborvecsei.wordpress.com/
  * https://github.com/gaborvecsei
- * 
- * Copyright 2016 Vecsei Gábor
+ *
+ * 2016 Summer
  ****************************************/
 
  /****************SUMMARY****************
@@ -28,10 +29,13 @@
  */
 
 int micPin = 2;
-int micVal = HIGH; // This is where we record our Sound Measurement
+//This is where we record our Sound Measurement
+int micVal = HIGH; 
 boolean bAlarm = false;
-unsigned long lastSoundDetectTime; // Record the time that we measured a sound
-int soundAlarmTime = 500; // Number of milli seconds to keep the sound alarm high
+//Record the time that we measured a sound
+unsigned long lastSoundDetectTime;
+//Number of milli seconds to keep the sound alarm high
+int soundAlarmTime = 500;
 
 /*
  * RGB Led:
@@ -56,7 +60,7 @@ const int ledOnArduino = 13;
  * 1 - turned on with color cycle
  * 2 - turned on with a single color
  */
-volatile int state = 0;
+int state = 0;
 
 
 /*
