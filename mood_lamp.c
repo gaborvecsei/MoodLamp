@@ -10,7 +10,7 @@
  ****************************************/
 
  /****************SUMMARY****************
-  * This is a project for my girlfriend.
+  * This was a project for my girlfriend.
   * A mood light what you can control with claps.
   * 
   * The states are:
