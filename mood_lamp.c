@@ -4,6 +4,7 @@
  * vecseigabor.x@gmail.com
  * https://gaborvecsei.wordpress.com/
  * https://github.com/gaborvecsei
+ * https://www.linkedin.com/in/vecseigabor
  *
  * 2016 Summer
  ****************************************/
